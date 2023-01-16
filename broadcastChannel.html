@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>🌭🕹🍔🛵🍟🖥🍕🚦</title>
+
+<style>
+body {
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#my-button {
+width: 500px;
+height: 500px;
+position: absolute;
+left: 100px;
+top: 200px;
+}
+
+.title {
+margin: 0px;
+}
+
+.long {
+display: flex;
+width: 2000px;
+height: 200px;
+padding: 20px;
+background-color: teal;
+}
+
+.button-container {
+background-color: aqua;
+max-width: 90px;
+height: 60px;
+padding: 20px;
+border: 1px black dashed;
+margin: 20px;
+}
+.box {
+background-color: dodgerblue;
+width: 90vw;
+height: 30vh;
+margin: 30px;
+padding: 30px;
+font-size: 200px;
+color: whitesmoke;
+box-shadow: 0px 0px 20px 11px rgba(0, 0, 0, 0.35);
+}
+
+.scrollable-container {
+border: 10px solid yellowgreen;
+box-shadow: 0px 0px 20px 11px rgba(0, 0, 0, 0.35);
+}
+
+.list {
+display: flex;
+overflow: scroll;
+}
+
+.scrollable-container .list-item {
+width: 150px;
+height: 200px;
+flex-shrink: 0;
+background-color: tomato;
+border: 5px solid black;
+margin: 10px;
+padding: 5px;
+list-style: none;
+color: whitesmoke;
+font-size: 20px;
+}
+
+#my-iframe {
+height: 600px;
+width: 600px;
+margin: 30px;
+}
+</style>
+</head>
+<body>
+<!-- <div class="container-first">
+<div class="container-second">
+<button id="my-button">CLICK HERE</button>
+</div>
+</div> -->
+<h1 class="title">Player Test Page</h1>
+<div class="long">
+<div class="button-container">Element in vertical scroll</div>
+<div class="button-container">Element in vertical scroll</div>
+<div class="button-container">Element in vertical scroll</div>
+<div class="button-container">Element in vertical scroll</div>
+<div class="button-container">Element in vertical scroll</div>
+<div class="button-container">Element in vertical scroll</div>
+<div class="button-container">Element in vertical scroll</div>
+<div class="button-container">Element in vertical scroll</div>
+<div class="button-container">Element in vertical scroll</div>
+<div class="button-container">Element in vertical scroll</div>
+<div class="button-container">Element in vertical scroll</div>
+<div class="button-container">Element in vertical scroll</div>
+</div>
+<iframe
+name="my-iframe" id="my-iframe"
+src="https://www.wikipedia.org/"
+title="iframe example">
+</iframe>
+
+
+<iframe
+id="my-iframe"
+src="broadcastChannel.html"
+title="iframe example"
+></iframe>
+
+<div class="box">Box</div>
+<div class="scrollable-container">
+<ul class="list">
+<li class="list-item" id="item1">Item Number 1</li>
+<li class="list-item" id="item2">Item Number 2</li>
+<li class="list-item" id="item3">Item Number 3</li>
+<li class="list-item" id="item4">Item Number 4</li>
+<li class="list-item" id="item5">Item Number 5</li>
+<li class="list-item" id="item6">Item Number 6</li>
+<li class="list-item" id="item7">Item Number 7</li>
+<li class="list-item" id="item8">Item Number 8</li>
+<li class="list-item" id="item9">Item Number 9</li>
+<li class="list-item" id="item10">Item Number 10</li>
+</ul>
+</div>
+</body>
+</html>
